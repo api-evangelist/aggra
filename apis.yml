@@ -1,7 +1,27 @@
 aid: aggra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aggra.png
 name: Aggra
-description: Aggra is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aggra Technologies Private Limited operates Moneytor, an autonomous,
+  self-learning platform for stressed loan recovery. Founded in 2017 in Mumbai, India
+  by Ayush Srivastava and Anubhav Singh, Moneytor delivers debt management, collections,
+  enterprise collections software, and distressed-debt / portfolio purchase solutions
+  to lenders. The SaaS platform applies machine learning and automation to digitize
+  the collections process — automating settlements, offering borrowers customized
+  repayment plans, orchestrating multi-channel borrower communications, tracking overdue
+  accounts, sending automated reminders, and surfacing real-time reporting and analytics
+  — helping lenders collect and liquidate their consumer loan portfolios. Backed by
+  500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/aggra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +34,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Fintech
+- Debt Collection
+- Lending
+- Collections
+- SaaS
+- Machine Learning
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://moneytor.in
+- type: DomainSecurity
+  url: security/aggra-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -50,7 +50,7 @@ tags:
 - Lending
 - Collection
 - Software-as-a-Service
-- Machine-Learning
+- Machine Learning
 - India
 tags_raw:
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - SaaS
 - Machine Learning
 - India
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
